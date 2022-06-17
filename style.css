@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  justify-content: center;
+  /* align-items: center; */
+  /* justify-items: center; */
+  display: flex;
+  flex-direction: row;
+}
+div {
+  display: flex;
+  width: 50%;
+  border-radius: 3em;
+  margin-top: 10em;
+}
+.box {
+  padding: 2em;
+  width: 30%;
+  height: 60vh;
+  flex: 1;
+}
+
+#box-1 {
+  background-color: rgb(193, 121, 20);
+}
+#box-2 {
+  background-color: rgb(31, 124, 120);
+}
+#box-3 {
+  background-color: rgb(4, 68, 61);
+}
