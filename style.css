@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Lexend Deca";
 }
 
 body {
@@ -43,7 +43,7 @@ figure {
   margin-bottom: 2em;
 }
 h1 {
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Big Shoulders Display";
   font-stretch: narrower;
   font-size: 2em;
   margin-bottom: 0.3em;
@@ -78,7 +78,7 @@ p {
   margin: 2em 0em 0.5em;
   border: 0.5px outset;
   background-color: hsl(0, 0%, 95%);
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Lexend Deca";
   font-weight: 600;
   cursor: pointer;
 }
@@ -113,5 +113,5 @@ footer a {
   text-decoration: none;
   font-size: 1.3em;
   font-weight: 300;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Lexend Deca";
 }
