@@ -1,21 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Lexend+Deca:400,300,600,700=swap);
+@import url(http://fonts.googleapis.com/css?family=Big+Shoulders+Display:400,300,600,700=swap);
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 body {
-  background-color: aqua;
   text-align: center;
   justify-content: center;
   align-items: center;
+  background-color: hsl(0, 0%, 95%);
 }
 main {
   justify-content: center;
   /* align-items: center; */
   /* justify-items: center; */
   display: flex;
-  flex-direction: row;
 }
 main .container {
   align-items: center;
@@ -25,36 +28,47 @@ main .container {
   margin-top: 10em;
 }
 .box {
-  padding: 2em;
+  padding: 2em 3em;
   width: 30%;
   /* height: 60vh; */
   flex: 1;
   text-align: left;
   color: white;
-  font-family: "Caifornian FB";
+  margin-bottom: 5em;
+}
+
+figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 h1 {
-  font-family: "Calibri";
-  margin-top: 2em;
-  margin-bottom: 0.5em;
+  font-family: "Big Shoulders Display", cursive;
+  font-stretch: narrower;
+  font-size: 2em;
+  margin-bottom: 0.3em;
+  color: hsl(0, 0%, 95%);
 }
 
 #box-1 {
-  background-color: rgb(218, 137, 23);
+  background-color: hsl(31, 77%, 52%);
   border-bottom-left-radius: 0.4em;
   border-top-left-radius: 0.4em;
 }
 #box-2 {
-  background-color: rgb(31, 124, 120);
+  background-color: hsl(184, 100%, 22%);
 }
 #box-3 {
-  background-color: rgb(4, 68, 61);
+  background-color: hsl(179, 100%, 13%);
   border-top-right-radius: 0.4em;
   border-bottom-right-radius: 0.4em;
 }
 
 p {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  font-weight: 100;
+  font-size: 0.78em;
+  line-height: 23px;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 .btn {
@@ -62,16 +76,41 @@ p {
   border-radius: 3em;
   margin: 2em 0em 0.5em;
   border: 0.5px outset;
-  background-color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
+  cursor: pointer;
 }
 #btn-1 {
-  color: rgb(218, 137, 23);
+  color: hsl(31, 77%, 52%);
 }
 #btn-2 {
-  color: rgb(31, 124, 120);
+  color: hsl(184, 100%, 22%);
 }
 #btn-3 {
-  color: rgb(4, 68, 61);
+  color: hsl(179, 100%, 13%);
+}
+
+#btn-1:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+#btn-2:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+#btn-3:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+}
+footer {
+  background-color: rgb(140, 11, 11);
+  padding: 1.5em;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 300;
+  font-family: "Lexend Deca", sans-serif;
 }
